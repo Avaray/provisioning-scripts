@@ -2,7 +2,7 @@
 set -e
 
 # Auto-generated provisioning script for stepDadsStash (ComfyUI - Extra)
-# Generated at 2026-05-06T21:23:47.896Z
+# Generated at 2026-05-06T21:24:10.513Z
 
 function download_file() {
     local url="$1"
