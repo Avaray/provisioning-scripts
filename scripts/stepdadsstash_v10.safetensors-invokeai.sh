@@ -2,7 +2,7 @@
 set -e
 
 # Auto-generated provisioning script for stepDadsStash (InvokeAI - Standard)
-# Generated at 2026-05-06T21:23:52.108Z
+# Generated at 2026-05-06T21:24:14.114Z
 
 function download_file() {
     local url="$1"
