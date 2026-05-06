@@ -2,7 +2,7 @@
 set -e
 
 # Auto-generated provisioning script for stepDadsStash (Fooocus - Extra)
-# Generated at 2026-05-06T21:23:56.081Z
+# Generated at 2026-05-06T21:24:17.640Z
 
 function download_file() {
     local url="$1"
