@@ -2,7 +2,7 @@
 set -e
 
 # Auto-generated provisioning script for stepDadsStash (Forge UI - Standard)
-# Generated at 2026-05-06T21:23:49.346Z
+# Generated at 2026-05-06T21:24:11.695Z
 
 function download_file() {
     local url="$1"
