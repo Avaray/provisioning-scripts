@@ -1,5 +1,166 @@
 {
-  "generatedAt": "2026-05-07T13:18:11.121Z",
-  "count": 0,
-  "templates": []
+  "generatedAt": "2026-05-07T14:56:18.766Z",
+  "count": 16,
+  "templates": [
+    {
+      "id": "69fc951e2ca120e65cbae6f6",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - ComfyUI (Standard)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "407971",
+      "envVars": {}
+    },
+    {
+      "id": "69fc951e2ca120e65cbae6f8",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - ComfyUI (Standard)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "pers8qdsxw",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95202ca120e65cbae6fa",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - ComfyUI (Extra)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "407972",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95202ca120e65cbae6fc",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - ComfyUI (Extra)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "kpqr8b886w",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95212ca120e65cbae6fe",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Forge UI (Standard)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "407973",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95212ca120e65cbae700",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Forge UI (Standard)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "k4snf1izy8",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95232ca120e65cbae702",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Forge UI (Extra)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "407974",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95232ca120e65cbae704",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Forge UI (Extra)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "rhqefgkyc4",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95242ca120e65cbae706",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - InvokeAI (Standard)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "407975",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95252ca120e65cbae708",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - InvokeAI (Standard)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "d0devob2ve",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95262ca120e65cbae70a",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - InvokeAI (Extra)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "407976",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95262ca120e65cbae70c",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - InvokeAI (Extra)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "y1deg0n4jn",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95272ca120e65cbae70e",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Fooocus (Standard)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "407977",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95272ca120e65cbae710",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Fooocus (Standard)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "jpcr8o7w3g",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95292ca120e65cbae712",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Fooocus (Extra)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "407978",
+      "envVars": {}
+    },
+    {
+      "id": "69fc95292ca120e65cbae714",
+      "name": "https://huggingface.co/datasets/AddictiveFuture/sdxl-1-0-models-backup/resolve/main/CHECKPOINT/CHINOOK_v10.safetensors - Fooocus (Extra)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "modelId": "69fc951c2ca120e65cbae6f5",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "asxdd7zu02",
+      "envVars": {}
+    }
+  ]
 }
