@@ -1,5 +1,486 @@
 {
-  "generatedAt": "2026-05-07T19:32:26.951Z",
-  "count": 0,
-  "templates": []
+  "generatedAt": "2026-05-08T07:35:32.207Z",
+  "count": 48,
+  "templates": [
+    {
+      "id": "69fcffe738bf24998fd25561",
+      "name": "albedobase - ComfyUI (Standard)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "408481",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffe738bf24998fd25563",
+      "name": "albedobase - ComfyUI (Standard)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "8asyq6zcou",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffe838bf24998fd25565",
+      "name": "albedobase - ComfyUI (Extra)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "408482",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffe838bf24998fd25567",
+      "name": "albedobase - ComfyUI (Extra)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "l9lei3g7hi",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffea38bf24998fd25569",
+      "name": "albedobase - Forge UI (Standard)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "408483",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffea38bf24998fd2556b",
+      "name": "albedobase - Forge UI (Standard)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "ge9xn3opn5",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffeb38bf24998fd2556d",
+      "name": "albedobase - Forge UI (Extra)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "408484",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffec38bf24998fd2556f",
+      "name": "albedobase - Forge UI (Extra)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "9x6h0femw1",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffed38bf24998fd25571",
+      "name": "albedobase - InvokeAI (Standard)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "408485",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffed38bf24998fd25573",
+      "name": "albedobase - InvokeAI (Standard)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "k7xvndramu",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffee38bf24998fd25575",
+      "name": "albedobase - InvokeAI (Extra)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "408487",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffee38bf24998fd25577",
+      "name": "albedobase - InvokeAI (Extra)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "cgbcg3gwj3",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffef38bf24998fd25579",
+      "name": "albedobase - Fooocus (Standard)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "408488",
+      "envVars": {}
+    },
+    {
+      "id": "69fcffef38bf24998fd2557b",
+      "name": "albedobase - Fooocus (Standard)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "pr8bhwflxl",
+      "envVars": {}
+    },
+    {
+      "id": "69fcfff038bf24998fd2557d",
+      "name": "albedobase - Fooocus (Extra)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "408489",
+      "envVars": {}
+    },
+    {
+      "id": "69fcfff138bf24998fd2557f",
+      "name": "albedobase - Fooocus (Extra)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "assetId": "69fcffe638bf24998fd25560",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "zfudwx54qq",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00c738bf24998fd25582",
+      "name": "Expic Realism v9 - ComfyUI (Standard)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "408494",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00c738bf24998fd25584",
+      "name": "Expic Realism v9 - ComfyUI (Standard)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "3awhq3g48x",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00c838bf24998fd25586",
+      "name": "Expic Realism v9 - ComfyUI (Extra)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "408495",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00c838bf24998fd25588",
+      "name": "Expic Realism v9 - ComfyUI (Extra)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "ji0b8wrbme",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00c938bf24998fd2558a",
+      "name": "Expic Realism v9 - Forge UI (Standard)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "408496",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00c938bf24998fd2558c",
+      "name": "Expic Realism v9 - Forge UI (Standard)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "q2261iyxci",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00ca38bf24998fd2558e",
+      "name": "Expic Realism v9 - Forge UI (Extra)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "408498",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00cb38bf24998fd25590",
+      "name": "Expic Realism v9 - Forge UI (Extra)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "b2wmy1qxkn",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00cc38bf24998fd25592",
+      "name": "Expic Realism v9 - InvokeAI (Standard)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "408499",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00cc38bf24998fd25594",
+      "name": "Expic Realism v9 - InvokeAI (Standard)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "v8fdz2w5cj",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00cd38bf24998fd25596",
+      "name": "Expic Realism v9 - InvokeAI (Extra)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "408500",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00cd38bf24998fd25598",
+      "name": "Expic Realism v9 - InvokeAI (Extra)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "2d2r2umkma",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00ce38bf24998fd2559a",
+      "name": "Expic Realism v9 - Fooocus (Standard)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "408501",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00ce38bf24998fd2559c",
+      "name": "Expic Realism v9 - Fooocus (Standard)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "htyp3lam3v",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00d038bf24998fd2559e",
+      "name": "Expic Realism v9 - Fooocus (Extra)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "408502",
+      "envVars": {}
+    },
+    {
+      "id": "69fd00d038bf24998fd255a0",
+      "name": "Expic Realism v9 - Fooocus (Extra)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "assetId": "69fd00c538bf24998fd25581",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "08e488gxve",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e1cc58691ce7bf0908",
+      "name": "stepDadsStash - ComfyUI (Standard)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "408860",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e1cc58691ce7bf090a",
+      "name": "stepDadsStash - ComfyUI (Standard)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "8i71uncfcq",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e2cc58691ce7bf090c",
+      "name": "stepDadsStash - ComfyUI (Extra)",
+      "provider": "vast",
+      "ui": "comfyui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "408861",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e2cc58691ce7bf090e",
+      "name": "stepDadsStash - ComfyUI (Extra)",
+      "provider": "runpod",
+      "ui": "comfyui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/comfy:v0.20.1-cuda-12.9-py312",
+      "providerTemplateId": "0ik9o2m3ma",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e3cc58691ce7bf0910",
+      "name": "stepDadsStash - Forge UI (Standard)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "408862",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e3cc58691ce7bf0912",
+      "name": "stepDadsStash - Forge UI (Standard)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "2chk6nwqmr",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e4cc58691ce7bf0914",
+      "name": "stepDadsStash - Forge UI (Extra)",
+      "provider": "vast",
+      "ui": "forgeui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "408863",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e5cc58691ce7bf0916",
+      "name": "stepDadsStash - Forge UI (Extra)",
+      "provider": "runpod",
+      "ui": "forgeui",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/sd-forge:neo-a90af56-2026-03-23-cuda-12.9",
+      "providerTemplateId": "gpmli83dxm",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e6cc58691ce7bf0918",
+      "name": "stepDadsStash - InvokeAI (Standard)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "408864",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e6cc58691ce7bf091a",
+      "name": "stepDadsStash - InvokeAI (Standard)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "uea938twj5",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e7cc58691ce7bf091c",
+      "name": "stepDadsStash - InvokeAI (Extra)",
+      "provider": "vast",
+      "ui": "invokeai",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "408865",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e7cc58691ce7bf091e",
+      "name": "stepDadsStash - InvokeAI (Extra)",
+      "provider": "runpod",
+      "ui": "invokeai",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/invokeai:6.12.0-cuda-12.9-py312",
+      "providerTemplateId": "x7gq4cknna",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e9cc58691ce7bf0920",
+      "name": "stepDadsStash - Fooocus (Standard)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "408866",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01e9cc58691ce7bf0922",
+      "name": "stepDadsStash - Fooocus (Standard)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "uryfbilgw1",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01eacc58691ce7bf0924",
+      "name": "stepDadsStash - Fooocus (Extra)",
+      "provider": "vast",
+      "ui": "fooocus",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "408867",
+      "envVars": {}
+    },
+    {
+      "id": "69fd01eacc58691ce7bf0926",
+      "name": "stepDadsStash - Fooocus (Extra)",
+      "provider": "runpod",
+      "ui": "fooocus",
+      "assetId": "69fd01de6e42cd6101ae12d1",
+      "dockerImage": "vastai/fooocus:59f183a-cuda-12.1-pytorch-2.5.1-ipv2",
+      "providerTemplateId": "zfk608t3na",
+      "envVars": {}
+    }
+  ]
 }
